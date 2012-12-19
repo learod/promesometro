@@ -1,4 +1,4 @@
-<p>Bienvenido <%= @resource.contact_name %>!!!</p>
+Bienvenido <%= @resource.contact_name %>!!!
 
 ¡Eres ahora ciudadano miembro de la comunidad de Promesómetro.pe!
 “El Promesómetro es un instrumento que facilita la comunicación entre autoridades y ciudadanos en
@@ -31,6 +31,6 @@ Si no deseas recibir notificaciones o quieres modificar tu información, por fav
 a ésta dirección [http://www.promesometro.pe/ciudadanos/edit]
 
 
-<p>Confirma tu cuenta haciendo click en el link  de abajo:</p>
+Confirma tu cuenta haciendo click en el link  de abajo:
 
-<p><%= link_to 'Confirmar mi cuenta', confirmation_url(@resource, :confirmation_token => @resource.confirmation_token) %></p>
+<%= link_to 'Confirmar mi cuenta', confirmation_url(@resource, :confirmation_token => @resource.confirmation_token) %>
